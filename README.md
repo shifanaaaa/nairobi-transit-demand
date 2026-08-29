@@ -1,5 +1,7 @@
 # Nairobi Matatu Network — Demand, Capacity & Coverage Analysis
 
+*An internship project, directed and guided by Mehdi Hassan, Head of Aideon Limited.*
+
 An estimated demand-vs-capacity analysis built on top of Nairobi's open matatu (informal transit) route data, identifying where the network is likely overloaded, underused, or has coverage gaps.
 
 ## The Problem
@@ -77,13 +79,16 @@ The full pipeline (data download, supply model, gravity model, network assignmen
 
 ## Repository Structure
 
+## Repository Structure
+
+```text
 nairobi-transit-demand/
 ├── README.md
 ├── notebooks/
-│ └── analysis.ipynb # full pipeline: data loading through comparison export
+│   └── analysis.ipynb              # Full analysis pipeline
 ├── app/
-│ ├── app.py # Streamlit dashboard
-│ ├── comparison_k5.json # pre-computed results, K=5
-│ └── comparison_k15.json # pre-computed results, K=15
+│   ├── app.py                      # Streamlit dashboard
+│   ├── comparison_k5.json          # Pre-computed results (K=5)
+│   └── comparison_k15.json         # Pre-computed results (K=15)
 └── requirements.txt
-
+```
