@@ -70,7 +70,7 @@ The full pipeline (data download, supply model, gravity model, network assignmen
 
 ## Live Demo
 
-[Add your Streamlit Community Cloud link here once deployed]
+https://nairobi-transit-demand.streamlit.app/
 - Matatu route data represents 2019–2020 service and may not reflect the current network.
 - Vehicle capacity is assumed rather than independently measured.
 - Coverage-gap results are sensitive to the number of candidate destinations considered during demand assignment.
